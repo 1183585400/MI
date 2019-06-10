@@ -1,0 +1,408 @@
+/*头部*/
+#topbar{
+	height: 100px;
+	border-bottom: 2px solid #ff6700;
+    color: #b0b0b0;
+	/*background: palegoldenrod;*/
+}
+#top_nav{
+	height: 74px;
+	position: relative;
+	/*background: paleturquoise;*/
+}
+/*logo*/
+#logo{
+	width: 93px;
+	height: 74px;
+	position: relative;
+	float: left;
+}
+.header_logo{
+	width: 48px;
+	height: 48px;
+	background-color: #ff6700;
+	text-align: center;
+	line-height: 48px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+	transition: opacity 0.5s;
+}
+#logo2{
+	opacity: 0;
+}
+.header_title{
+	display: block;
+	height: 48px;
+	margin-top: 26px;
+	line-height: 48px;
+	color: #757575;
+}
+#mycar{
+	font-size: 28px;
+    color: #424242;
+    margin-right: 15px;
+}
+
+.header_title a{
+	text-decoration: none;
+	color: #757575;
+	margin: 0 2px;
+}
+
+#shopcar{
+	/*height: 1000px;*/
+	background: #F5F5F5;
+	padding: 38px 0;
+	position: relative;
+}
+#shopcar_content{
+	background-color: #fff;
+}
+/*表格标题*/
+#tabletitle{
+	height: 70px;
+	line-height: 70px;
+	color: #424242;
+	font-size: 14px;
+	padding: 0 26px;
+}
+.gou{
+	width: 20px;
+	height: 20px;
+	line-height: 14px;
+	font-weight: bold;
+	border: 1px solid #b0b0b0;
+	border-radius: 15%;
+	cursor: pointer;
+	color: #fff;
+	margin-right: 15px;
+}
+.cha{
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	line-height: 14px;
+	border-radius: 50%;
+	background: #fff;
+	color: #666666;
+	cursor: pointer;
+	background: none;
+	transition: all 0.5s;
+}
+.cha:hover{
+	background: #e53935;
+	color: #fff;
+}
+#shop_name{
+	margin: 0 89px 0 89px;
+}
+
+/*#gou:hover{
+	background-color: #FF6700;
+	border-color: #FF6700;
+}*/
+
+.l_tils{
+	float: left;
+	text-align: left;
+	width: 120px;
+}
+.l_tils:nth-child(3){
+	width: 380px;
+}
+.r_tils{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+.r_tils:nth-child(1){
+	width: 80px;
+}
+/*购买的商品详情列表*/
+.shoplist{
+	padding: 15px 26px;
+	font-size: 16px;
+	background-color: #fff;
+	border-top: 1px solid #e0e0e0;
+	position: relative;
+}
+/*有图的手机详情*/
+#details{
+	height: 86px;
+	line-height: 86px;
+}
+#phonePic{
+	width: 80px;
+	height: 80px;
+}
+.name{
+	width: 380px;
+	font-size: 18px;
+	color: #424242;
+}
+#r_tilspay{
+	color: #FF6700;
+}
+.num{
+	width: 148px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    background-color: #fff;
+    line-height: 38px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.less,.more{
+	display: block;
+	width: 50px;
+	height: 38px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.less:hover,.more:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+/*附加内容*/
+#another{
+	display: none;
+	height: 466px;
+	margin-left: 70px;
+	background-color: #fff;
+}
+.addthing{
+	width: 1100px;
+	height: 97px;
+	margin-top: 15px;
+	line-height: 97px;
+	background-color: #f5f5f5;
+	position: relative;
+}
+#upicon{
+	width:0;
+	height:0;
+	border-width:0 10px 10px;
+	border-style:solid;
+	border-color:transparent transparent #f5f5f5;
+	position:absolute;
+	top:-10px;left:70px;
+}
+#shop_name2{
+	position: relative;
+}
+/*赠品*/
+#tag-red{
+	display: inline-block;
+	width: 60px;
+	height: 18px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 18px;
+	text-align: center;
+	background-color: #e53935;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+/*额外添加*/
+#safe{
+	margin-top: 15px;
+}
+
+.safe_li{
+	width: 1100px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	color: #424242;
+	float: left;
+	line-height: 50px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.safe_li:hover{
+	background-color: #fafafa;
+}
+.safe_li:nth-child(2){
+	border-top: none;
+}
+.safe_li:nth-child(3){
+	margin-top: 15px;
+}
+.icons{
+	display: block;
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin: 12px 15px 0 20px;
+	/*margin-top:12px;
+	margin-left: 10px;*/
+	background-image: url(../img/bgicons/add.png);
+	background-size: 100% 100%;
+}
+.yiwai{
+	color: #FF6700;
+	margin-left: 20px;
+}
+/*第二个商品信息*/
+#another2{
+	display: none;
+	height: 350px;
+	margin-left: 70px;
+	background-color: #fff;
+}
+
+/*去结算*/
+#big_stat{
+	background-color: #F5F5F5;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+}
+#statistics{
+	height: 50px;
+	/*overflow: hidden;*/
+	/*margin-bottom: 20px;*/
+	margin: 0 auto;
+	line-height: 50px;
+    color: #757575;
+    font-size: 14px;
+	background: #fff;
+}
+#statis_l{
+    margin-left: 32px;
+}
+#goon:hover{
+	cursor: pointer;
+	color: #FF6700;
+}
+.line{
+	padding: 0 15px;
+}
+#counts i{
+	color: #FF6700;
+}
+#allmoney{
+	color: #FF6700;
+}
+#allmoney i{
+	font-size: 30px;
+}
+#ststbtn{
+	width: 200px;
+    height: 48px;
+    font-size: 18px;
+    margin-left: 50px;
+    background: #ff6700;
+    border: 1px solid #FF6700;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+/*购物车推荐*/
+#carforyou{
+	background-color: #F5F5F5;
+	overflow: hidden;
+	height: 730px;
+	padding-top: 50px;
+}
+
+#foryou{
+	/*background: burlywood;*/
+	position: relative;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #757575;
+    border-top: 0.5px solid #e0e0e0;
+}
+#title_word{
+	position: absolute;
+    top: -20px;
+    left: 372px;
+    height: 40px;
+    width: 482px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    background-color: #f5f5f5;
+}
+
+.foryou_lis{
+	width: 234px;
+	height: 246px;
+	padding: 34px 0 20px 0;
+	float: left;
+	text-align: center;
+	margin-left:14px ;
+	margin-bottom: 14px;
+	background: #fff;
+}
+.foryou_lis img{
+	width: 140px;
+	height: 140px;
+}
+.foryou_lis:nth-child(1){
+	margin-left:0;
+	padding: 0;
+}
+.foryou_lis:nth-child(1) img{
+	width: 234px;
+	height: 300px;
+}
+.foryou_lis:nth-child(6){
+	margin-left: 0;
+}
+/*动态创建的性属性样式*/	
+.list_name{
+	margin: 15px 20px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+}	
+.list_text{
+	height: 18px;
+    margin: 0 20px 12px;
+    font-size: 12px;
+    color: #b0b0b0;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}	
+.list_price{
+	color: #FF6700;
+	font-size: 14px;
+}
+#good{
+	position: relative;
+	margin: 0 auto;
+	width: 118px;
+    height: 28px; 
+    /*background-color: peachpuff;*/
+}
+#good::before{
+	content: "加入购物车";
+	width: 116px;
+    height: 28px;
+    line-height: 28px;
+    color: #FF6700;
+    background-color: #fff;
+    border: 1px solid #FF6700;
+    z-index: 2;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    display: none;
+    transition: 0.5s;
+}
+#good:hover::before{
+	background-color: #FF6700;
+	color: #fff;
+}
+.foryou_lis:hover #good::before{
+	display: block;
+}

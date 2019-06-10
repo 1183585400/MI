@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>register</title>
+		<link rel="stylesheet" type="text/css" href="css/MI_base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="CommCss/ICON_base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+	</head>
+	<body>
+		<div id="bgbox">
+			<!--logo-->
+			<a href="index.html" style="text-decoration: none;">
+				<div id="top_logo">
+					<span class="iconfont">&#xe661;</span>
+				</div>
+			</a>
+			<h4 id="title">注册小米账号</h4>
+			
+			<div id="regbox">
+				<h4 class="title2">国家/地区</h4>
+				
+				<div id="inp_box1" class="inp_box">
+					<p id="inp_box1_p">中国</p>
+					<span class="iconfont site_sp">&#xe6a6;</span>
+					
+					<div class="inpbox_down" id="inpbox1_down">
+						<input type="text" name="" id="down_inp1" value="" />
+						<optgroup label="A" class="lable">
+							<option value="">Antigua and Barbuda</option>
+							<option value="">Anguilla</option>
+							<option value="">Albania</option>
+							<option value="">Armenia</option>
+						</optgroup>
+						<optgroup label="B" class="lable">
+							<option value="">Barbados</option>
+							<option value="">Bangladesh</option>
+							<option value="">Belgium</option>
+							<option value="">Burkina Faso</option>
+						</optgroup>
+						<optgroup label="C" class="lable">
+							<option value="">Cameroon</option>
+							<option value="" selected="selected">China</option>
+							<option value="">Colombia</option>
+							<option value="">Costa Rica</option>
+						</optgroup>
+					</div>
+				</div>
+				
+				<p class="tips">成功注册帐号后，国家/地区将不能被修改</p>
+				
+				<h4 class="title2">手机号码</h4>
+				<div id="inp_num">
+					<div id="inp_box2" class="inp_box">
+						<div id="btnnum">
+							<p id="inp_box2_p">+86</p>
+							<span class="iconfont">&#xe6a6;</span>
+						</div>
+						
+						<div class="inpbox_down" id="inpbox2_down">
+							<input type="text" name="" id="down_inp1" value="" />
+							<optgroup label="A" class="lable">
+								<option value="">Antigua and Barbuda  +376</option>
+								<option value="">Anguilla   +68</option>
+								<option value="">Albania   +59</option>
+								<option value="">Armenia   +23</option>
+							</optgroup>
+							<optgroup label="B" class="lable">
+								<option value="">Barbados  +23</option>
+								<option value="">Bangladesh  +23</option>
+								<option value="">Belgium  +68</option>
+								<option value="">Burkina Faso  +22</option>
+							</optgroup>
+							<optgroup label="C" class="lable">
+								<option value=""=>Cameroon  +88</option>
+								<option value="" selected="selected">China  +86</option>
+								<option value="">Colombia +55</option>
+								<option value="">Costa Rica  +38</option>
+							</optgroup>
+						</div>
+						
+					</div>
+					<input type="text" name="" id="num" value="" placeholder="请输入手机号码" />
+				</div>
+				<p class="tips" id="danger"><span class="iconfont">&#xe6ac;</span>&nbsp;请正确输入手机号码</p>	
+				
+				<button id="resbtn">注册</button>
+				<p style="float: right; font-size: 12px;padding: 5px 10px 0 0;color: #666;">已有账号&nbsp;&nbsp; 
+					<a href="login.html" style="text-decoration: none;color: #FF6700;margin-left: 5px;">
+						立即登录</a>
+				</p>
+			</div>
+			<div id="pbox">
+				<p id="careful">
+					<span class="iconfont" id="carebtn" oc="0">&#xe63d;</span>
+					注册帐号即表示您同意并愿意遵守小米 <strong>用户协议</strong>和 <strong>隐私政策</strong>
+				</p>
+			</div>			
+		</div>
+		
+		<div id="footer">
+			<p id="footerp1">简体<span>|</span> 繁体<span>|</span>English<span>|</span>常见问题</p>
+			<p id="footerp2">小米公司版权所有-京ICP备10046444-<img src="img/bgicons/ghs.png" />京公网安备11010802020134号-京ICP证110507号</p>
+		</div>
+		
+	</body>
+</html>

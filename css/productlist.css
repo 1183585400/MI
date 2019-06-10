@@ -1,0 +1,224 @@
+#toptitle{
+	overflow: hidden;
+	height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    background: #f5f5f5;
+    color: #616161;
+}
+#place a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #757575;
+	
+}
+#productlist{
+	/*height: 880px;*/
+}
+.class_title{
+	height: 60px;
+    padding-top: 14px;
+    border-bottom: 1px solid #e0e0e0;
+   line-height: 60px;
+}
+.h_title{
+	font-size: 18px;
+    color: #ff6700;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn{
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    border: 1px solid #b0b0b0;
+    border-radius: 15px;
+    color: #b0b0b0;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.lis{
+	float: left;
+    width: 245px;
+    height: 136.5px;
+    padding-top: 24px;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+}
+.lis img{
+	display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 24px;
+}
+.lis:hover{
+	color: #FF6700;
+}
+.boxs{
+	transition: height 0.5s;
+	overflow: hidden;
+}
+.uls{
+	width: 1230px;
+}
+/*手机*/
+#phones_ul,#phones_box{
+	height: 805px;
+}
+/*电视盒子*/
+#tvs_ul,#tvs_box{
+	height: 805px;
+}
+/*笔记本 平板*/
+#ipads_ul,#ipads_box{
+	height: 483px;
+}
+/*出行 穿戴*/
+#outs_ul,#outs_box{
+	height: 322px;
+}
+/*智能 路由器*/
+#ais_ul,#ais_box{
+	height: 322px;
+}
+#products{
+	padding-bottom: 100px;
+}
+/*侧边固定导航栏*/
+#bar_ul{
+	width: 27px;
+	height: 161px;
+	/*background: #444851;*/
+	position: fixed;
+	right: 32px;
+	bottom: 125px;
+}
+.barbtns{
+	width: 25px;
+	height: 39px;
+	background-color: #fff;
+    border: 1px solid #f5f5f5;
+}
+.icons{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top:10px;
+	margin-left: 3px;
+	position: relative;
+}
+.pop2 {
+    left: -87px;
+    top: -10px;
+    z-index: 1;
+    position: absolute;
+}
+.pop_content2{
+	background: #fff;
+    border: 1px solid #f5f5f5;
+    float: left;
+    margin-top: 10px;
+}
+.pop_text2{
+	width: 70px;
+	padding: 3px;
+    color: #757575;
+    font-size: 14px;
+    text-align: center;
+
+}
+/*class*/
+.arrow1{
+	float: right;
+	width: 11px;
+    height: 27px;
+    margin-left: -1px;
+    position: relative;
+    top: 8px;
+    z-index: 2;
+    background: url(../img/bgicons/arrow.png) no-repeat left 38px;
+    background-position: left center;
+}
+.pop2{
+	display: none;
+}
+.barbtns:nth-child(1) .icons{
+	background-image: url(../img/bgicons/shouji1.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(1) .icons:hover{
+	background-image: url(../img/bgicons/shouji.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(1) .icons:hover .pop2{
+	display: block;
+}
+
+.barbtns:nth-child(2) .icons{
+	background-image: url(../img/bgicons/dianshi1.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(2) .icons:hover{
+	background-image: url(../img/bgicons/dianshi.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(2) .icons:hover .pop2{
+	display: block;
+}
+
+.barbtns:nth-child(3) .icons{
+	background-image: url(../img/bgicons/iconset02291.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(3) .icons:hover{
+	background-image: url(../img/bgicons/iconset0229.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(3) .icons:hover .pop2{
+	display: block;
+}
+
+.barbtns:nth-child(4) .icons{
+	background-image: url(../img/bgicons/zhinengshouhuan1.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(4) .icons:hover{
+	background-image: url(../img/bgicons/zhinengshouhuan.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(4) .icons:hover .pop2{
+	display: block;
+}
+
+.barbtns:nth-child(5) .icons{
+	background-image: url(../img/bgicons/luyouqi1.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(5) .icons:hover{
+	background-image: url(../img/bgicons/luyouqi.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(5) .icons:hover .pop2{
+	display: block;
+}
+
+.barbtns:nth-child(6) .icons{
+	background-image: url(../img/bgicons/totop1.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(6) .icons:hover{
+	background-image: url(../img/bgicons/totop_hover.png);
+	background-size: 100% 100%;
+}
+.barbtns:nth-child(6) .icons:hover .pop2{
+	display: block;
+}
+#totop{
+	margin-top: 15px;
+	display: none;
+}

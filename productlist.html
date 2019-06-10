@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/MI_base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="CommCss/ICON_base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/productlist.css"/>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/productlist.js" ></script>
+	</head>
+	<body>
+		<header><!--引用公共部分--></header>
+		
+		<!--当前位置-->
+		<div id="toptitle" class="t">
+			<div id="place" class="c">
+				<a href="index.html">首页</a><span>&nbsp; > &nbsp;</span><a>所有分类</a>
+			</div>
+		</div>
+		<!--商品分类-->
+		<div id="products" class="t">
+			<!--手机 电话卡-->
+			<div id="productlist_phone" class="c">
+				<div class="class_title">
+		            <h2 class="h_title" oc="0">
+	            	<span class="iconfont btn" id="phonebtn">&#xe6a6;</span>
+	            	手机 电话卡
+		            </h2>
+		        </div>
+				<div id="phones_box" class="boxs c">
+					<ul id="phones_ul"  class="uls">
+						<!--动态创建-->
+					</ul>
+				</div>
+			</div>
+			
+			<!--电视 盒子-->
+			<div id="productlist_tv" class="c">
+				<div class="class_title">
+		            <h2 class="h_title"  oc="0">
+	            	<span class="iconfont btn">&#xe6a6;</span>
+	            	电视 盒子
+		            </h2>
+		        </div>
+				<div id="tvs_box" class="boxs c">
+					<ul id="tvs_ul" class="uls">
+						<!--动态创建-->
+						
+					</ul>
+				</div>
+			</div>
+			
+			<!--笔记本 平板-->
+			<div id="productlist_ipad" class="c">
+				<div class="class_title">
+		            <h2 class="h_title"  oc="0">
+	            	<span class="iconfont btn">&#xe6a6;</span>
+	            	笔记本 平板
+		            </h2>
+		        </div>
+				<div id="ipads_box" class="boxs c">
+					<ul id="ipads_ul" class="uls">
+						<!--动态创建-->
+						
+					</ul>
+				</div>
+			</div>
+			
+			<!--出行 穿戴-->
+			<div id="productlist_out" class="c">
+				<div class="class_title">
+		            <h2 class="h_title"  oc="0">
+	            	<span class="iconfont btn">&#xe6a6;</span>
+	            	出行 穿戴
+		            </h2>
+		        </div>
+				<div id="outs_box" class="boxs c">
+					<ul id="outs_ul" class="uls">
+						<!--动态创建-->
+						
+					</ul>
+				</div>
+			</div>
+			
+			<!--智能 路由器-->
+			<div id="productlist_ai" class="c">
+				<div class="class_title">
+		            <h2 class="h_title"  oc="0">
+	            	<span class="iconfont btn">&#xe6a6;</span>
+	            	智能 路由器
+		            </h2>
+		        </div>
+				<div id="ais_box" class="boxs c">
+					<ul id="ais_ul" class="uls">
+						<!--动态创建-->
+						
+					</ul>
+				</div>
+			</div>
+			
+			
+			<!--侧边固定导航栏-->
+			<div id="site_bar">
+				<ul id="bar_ul">
+					<li class="barbtns">
+						<a href="#productlist_phone"><i class="icons">
+							<div class="pop2"> 
+								<div class="pop_content2"> 
+									<p class="pop_text2">
+										手机
+									</p> 
+								</div> 
+								<div class="arrow1"></div> 
+							</div>
+						</i></a>
+					</li>
+					<li class="barbtns">
+						<a href="#productlist_tv"><i class="icons">
+							<div class="pop2"> 
+								<div class="pop_content2"> 
+									<p class="pop_text2">
+										电视
+									</p> 
+								</div> 
+								<div class="arrow1"></div> 
+							</div>
+						</i></a>
+					</li>
+					<li class="barbtns">
+						<a href="#productlist_ipad"><i class="icons">
+							<div class="pop2"> 
+								<div class="pop_content2"> 
+									<p class="pop_text2">
+										电脑
+									</p> 
+								</div> 
+								<div class="arrow1"></div> 
+							</div>
+						</i></a>
+					</li>
+					<li class="barbtns">
+						<a href="#productlist_out"><i class="icons">
+							<div class="pop2"> 
+								<div class="pop_content2"> 
+									<p class="pop_text2">
+										出行
+									</p> 
+								</div> 
+								<div class="arrow1"></div> 
+							</div>
+						</i></a>
+					</li>
+					<li class="barbtns">
+						<a href="#productlist_ai"><i class="icons">
+							<div class="pop2"> 
+								<div class="pop_content2"> 
+									<p class="pop_text2">
+										智能
+									</p> 
+								</div> 
+								<div class="arrow1"></div> 
+							</div>
+						</i></a>
+					</li>
+					<li class="barbtns" id="totop">
+						<a href="#productlist_phone"><i class="icons">
+							<div class="pop2"> 
+								<div class="pop_content2"> 
+									<p class="pop_text2">
+										回到顶部
+									</p> 
+								</div> 
+								<div class="arrow1"></div> 
+							</div>
+						</i></a>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<footer><!--引用公共部分--></footer>
+	</body>
+</html>

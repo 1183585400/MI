@@ -1,0 +1,181 @@
+
+#loginlogo{
+	height: 98px;
+	width: 200px;
+	background: palegoldenrod;
+	position: relative;
+}
+#loginbg{
+    width: 100%;
+    height: 538px;
+    background-repeat: no-repeat;
+    background-position: top center;
+	background-image: url(../img/MI/xmad_rig3.jpg);
+}
+#lable{;
+	position: relative;
+}
+#loginbox{
+	width: 410px;
+	height: 524px;
+	background: #fff;
+	position: absolute;
+	top: 40px;
+	right: 3px;
+	text-align: center;
+}
+#title{
+	text-align: center;
+	font-size: 24px;
+	padding: 27px 0 24px 0;
+	
+}
+#title a:nth-child(1){
+	color: #FF6700;
+}
+#title a{
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+#title a:hover{
+	color: #FF6700;
+}
+#shu{
+	color: #e0e0e0;
+	padding: 0 45px;
+}
+.form{
+	display: block;
+	width: 316px;
+	height: 22px;
+	line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    margin: 14px auto;
+    outline: none;    
+    border: 1px solid #e0e0e0;
+}
+#login{
+	background-color: #ef5b00;
+    width: 346px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    margin: 34px auto;
+    margin-bottom: 14px;
+    border: none;
+}
+#text{
+	margin: 0 auto;
+	width: 346px;
+    height: 20px;
+    font-size: 14px;
+}
+#typ{
+	text-decoration: none;
+	cursor: pointer;
+	color: #FF6700;
+	float: left;
+}
+#nowregister,#forgetpwd,#line {
+	text-decoration: none;
+	cursor: pointer;
+	color: #999;
+	float: right;
+}
+#line{
+	padding: 0 6px;
+}
+#nowregister:hover,#forgetpwd:hover{
+	color: #FF6700;
+}
+.oth_type_tit{
+	width: 346px;
+	border: none;
+	border-top: 1px solid #e0e0e0;
+    margin: 95px auto;
+    margin-bottom: 0;
+}
+.oth_type_txt{
+	font-size: 14px;
+    color: #b0b0b0;
+    text-align: center;	
+}
+#app{
+	margin: 10px 0 0 120px;
+}
+.apps{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-right: 40px;
+}
+.apps span{
+	font-size: 30px;
+}
+.apps:nth-child(1){
+	color: #0288d1;
+}
+.apps:nth-child(2){
+	color: #d32f2f;
+}
+.apps:nth-child(3){
+	color: #00d20d;
+}
+
+#code{
+	display: none;
+}
+
+#code img{
+	width: 180px;
+	height: 180px;
+	margin: 100px auto;
+	margin-bottom: 10px;
+}
+#code p{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #757575;
+}
+#code span{
+	color: #FF6700;
+	padding: 5px;
+}
+
+#footer{
+	margin: 25px auto;
+	margin-top: 120px;
+	text-align: center;
+	color: #757575;
+	font-size: 14px;
+}
+
+#footerp1 span{
+	margin: 0 15px;
+}
+#footerp2{
+	margin-top: 12px;
+}
+#footerp2 img{
+	width: 20px;
+	height: 20px;
+	padding-bottom: 5px;
+}
+#all{
+	position: relative;
+	
+}
+.tips{
+	position: absolute;
+	top: 122px;
+	left: 30px;
+	color: #FF6700;
+	display: none;
+}
