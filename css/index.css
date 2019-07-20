@@ -11,7 +11,6 @@
 	height: 40px;
 	width: 60%;
 	float: left;
-	/*background: palegoldenrod;*/
 }
 /*下载APP二维码*/
 #appnode{
@@ -54,12 +53,12 @@
 	height: 40px;
 	width: 23%;
 	float: right;
-	/*background: paleturquoise;*/
 	text-align: right;
 }
 .top_btns{
 	float: left;
 	line-height: 40px;
+	cursor: pointer;
 }
 .top_btns:hover{
 	color: #fff;
@@ -119,8 +118,6 @@
 
 /*头部导航条*/
 #site_header{
-	/*border-bottom: 1px solid red;
-	overflow: hidden;*/
 	position: relative;
 }
 #header_logo{
@@ -132,6 +129,7 @@
 	line-height: 55px;
 	color: white;
 	float: left;
+	cursor: pointer;
 }
 #center_list{
 	float: left;
@@ -142,7 +140,7 @@
 .h_list{
 	font-size: 16px;
 	float: left;
-	padding: 26px 10px 38px;
+	padding: 26px 10px 44px;
 	cursor: pointer;
 }
 .h_list:hover{
@@ -177,6 +175,7 @@
     top: 0;
     z-index: 2;
     outline: none;
+    cursor: pointer;
 }
 #lable{
 	width: 130px;
@@ -230,7 +229,6 @@
 /*二级菜单*/
 #miphone{
 	position: relative;
-	/*padding-bottom: 3px;*/
 }
 #down_menu{
 	height: 0;
@@ -240,9 +238,7 @@
 	z-index: 22;
 	transition: height .2s linear 0s;
 	background-color: #fff;
-	/*border-top: 1px solid #fff;*/
 	box-shadow: 0px 12px 8px -12px rgba(0,0,0,0.15);
-	/*background: palegoldenrod;*/
 }
 #down_menu::before{
 	content: "";
@@ -310,6 +306,7 @@
 	left: 0;
 	top: 0;
 	transition: 1.5s;
+	cursor: pointer;
 }
 .sPic img{
 	width: 1226px;
@@ -318,8 +315,7 @@
 .bn{
 	width: 41px;
 	height: 69px;
-	/*background-color: red;*/
-	/*z-index: 9;*/
+	cursor: pointer;
 	position: absolute;
 	background-image: url(../img/MI/icon-slides.png);
 }
@@ -342,7 +338,6 @@
 #btnBox{
 	width: 150px;
 	height: 10px;
-	/*z-index: 9;*/
 	position: absolute;
 	bottom: 30px;
 	right: 0;
@@ -355,6 +350,7 @@
 	margin: 5px;
 	background-color: rgba(0,0,0,0.4);
 	float: left;
+	cursor: pointer;
 }
 .picBtn:hover{
 	background-color: rgba(255,255,255,0.4);
@@ -379,8 +375,7 @@
 	line-height: 42px;
 	color: #fff;
 	padding-left: 30px;
-	position: relative;
-	/*background: paleturquoise;*/
+	cursor: pointer;
 }
 .site_sp{
 	position: absolute;
@@ -393,21 +388,28 @@
 	background-color: #ff6700;
 }
 /*轮播上的二级菜单*/
-#phone_card{
-	position: relative;
-}
-#site_sec{
+.site_sec{
 	display: none;
 	height: 457px;;
 	width: 800px;
 	background-color: white;
 	position: absolute;
-	top: -19px;
-	left: 234px;
+    top: 0px;
+    left: 235px;
 	border: 1px solid #e0e0e0;
 	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
 }
-#phone_card:hover #site_sec{
+#phone_card:hover .site_sec{
+	display: block;
+}
+
+#TV_card:hover .site_sec{
+	display: block;
+}
+#pc_card:hover .site_sec{
+	display: block;
+}
+#jia_card:hover .site_sec{
 	display: block;
 }
 #sec_site{
@@ -419,7 +421,6 @@
 	width: 250px;
 	height: 40px;
 	cursor: pointer;
-	/*border: 1px solid black;*/
 }
 
 .site_content img{
@@ -455,6 +456,7 @@
 	text-align: center;
 	float: left;
 	line-height: 60px;    
+	cursor: pointer;
 }
 .btn_icon:nth-child(1){
 	border-bottom: 1px solid rgba(255,255,255,0.06);
@@ -491,6 +493,7 @@
 .list_img{
 	float: left;
 	margin: 20px 0 26px 15px;
+	cursor: pointer;
 }
 .list_img img{
 	width: 315.67px;
@@ -500,8 +503,6 @@
 #flash_purchase{
 	overflow: hidden;
 	padding-bottom: 60px;
-	/*height: 438px;*/
-	/*background: red;*/
 }
 .h2_title{
 	font-size: 22px;
@@ -520,15 +521,11 @@
 	padding: 4px 7px;
 	outline: none;
 	font-weight: 900;
+	cursor: pointer;
 }
 .iconBut:hover{
 	color: #FF6700;
 }
-/*.buttonDisabled*/
-/*.iconBut:disabled {
-    cursor: default;
-    color: #e0e0e0;
-}*/
 .flash_icon:hover{
 	color: #FF6700;
 }
@@ -536,10 +533,10 @@
 	width: 234px;
 	height: 300px;
 	padding-top: 39px;
-	/*margin-right: 14px;*/
 	background: #f1eded;
 	text-align: center;
-	border-top: 1px solid #e53935;;
+	border-top: 1px solid #e53935;
+	cursor: pointer;
 }
 #timer_title{
 	font-size: 21px;
@@ -574,7 +571,6 @@
 }
 #flash_list{
 	width: 2480px;
-	/*border: 1px solid black;*/
 	height: 340px;
 	position: absolute;
 	transition: left 2s;
@@ -587,6 +583,7 @@
 	margin-left: 14px;
 	position: relative;
 	border-top: 1px solid black;
+	cursor: pointer;
 }
 
 .shop_list img{
@@ -636,12 +633,11 @@
 	height: 120px;
 	overflow: hidden;
 	margin: 2px 0 42px 0;
+	cursor: pointer;
 }
 
 /*商品列表*/
 #content{
-	/*height: 6000px;*/
-	/*min-width: 1226px;*/
 	background-color: #f5f5f5;
 }
 .h2_title{
@@ -651,6 +647,7 @@
 	font-size: 16px;
     line-height: 58px;
     color: #424242;
+    cursor: pointer;
 }
 #find_all:hover{
 	color: #FF6700;
@@ -667,6 +664,7 @@
     line-height: 12px;
     background: #b0b0b0;
     color: #fff;
+    cursor: pointer;
 }
 #phone_left img{
 	width: 234px;
@@ -677,6 +675,7 @@
 	 box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 	 z-index: 2;
 	transform: translate3d(0, -2px, 0);
+	cursor: pointer;
 }
 #phone_right{
 	width: 992px;
@@ -693,6 +692,7 @@
 	margin-bottom: 14px;    
 	transition: all .2s linear;
 	position: relative;
+	cursor: pointer;
 }
 .phone_list:hover{
 	 box-shadow: 0 15px 30px rgba(0,0,0,0.1);
@@ -739,16 +739,10 @@
 	height: 120px;
 	overflow: hidden;
 	margin: 40px 0 0 0;
+	cursor: pointer;
 }
 
 /*家电*/
-/*#r_point{
-	
-	width: 260px;
-}*/
-/*.anchor_list{
-	margin-top: 20px;
-}*/
 .anchor_point{
 	float: left;
 	display: inline-block;
@@ -758,6 +752,7 @@
     border-bottom: 2px solid #f5f5f5;
     transition: border-color .5s;
     font-size: 16px;
+    cursor: pointer;
 }
 .anchor_point:hover{
     color: #ff6700;
@@ -767,6 +762,7 @@
 	width: 234px;
 	height: 614px;
 	float: left;
+	cursor: pointer;
 }
 .img_left img{
 	width: 234px;
@@ -797,6 +793,7 @@
 	margin-bottom: 14px;    
 	transition: all .2s linear;
 	position: relative;
+	cursor: pointer;
 }
 #point_content img{
 	width: 150px;
@@ -842,36 +839,6 @@
     white-space: nowrap;
     overflow: hidden;
 }
-/*.lable1{
-	display: block;
-	width: 64px;
-    height: 20px;
-	position: absolute;
-    top: 0;
-    left: 50%;
-    background: #e53935;
-    z-index: 5;    
-    margin-left: -32px;
-    font-size: 12px;
-    line-height: 20px;
-    text-align: center;
-    color: #fff;
-}*/
-/*.lable2{
-	display: block;
-	width: 64px;
-    height: 20px;
-	position: absolute;
-    top: 0;
-    left: 50%;
-    background-color: #83c44e;
-    z-index: 5;    
-    margin-left: -32px;
-    font-size: 12px;
-    line-height: 20px;
-    text-align: center;
-    color: #fff;
-}*/
 .last2{
 	width: 234px;
 	height: 93px;
@@ -930,7 +897,6 @@
 /*为你推荐*/
 #you_shop{
 	height: 320px;
-	/*background: palegoldenrod;*/
 	position: relative;
 }
 #you_list{
@@ -976,6 +942,7 @@
 #hot_content img{
 	width: 296px;
 	height: 220px;
+	cursor: pointer;
 }
 #hot_name{
 	height: 72px;
@@ -984,6 +951,7 @@
     line-height: 24px;
     font-weight: 400;
     overflow: hidden;
+    cursor: pointer;
 }
 .hots:hover{
 	 box-shadow: 0 15px 30px rgba(0,0,0,0.1);
@@ -1007,12 +975,10 @@
 	float: left;
 	margin-right: 14px;
 	position: relative;
-	/*overflow: hidden;*/
 }
 #s_listbox{
 	width: 895px;
 	height: 340px;
-	/*background: palegreen;*/
 	border: 1px solid #000000;
 	position: absolute;
 	bottom: 0;
@@ -1061,10 +1027,7 @@
 #con_next:hover{
 	background-position: -50px -5px;
 }
-
-
 /*视频*/
-
 .videos:hover{
 	 box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 	 z-index: 2;
@@ -1086,6 +1049,7 @@
     width: 296px;
     height: 180px;
     margin: 0 0 28px;
+    cursor: pointer;
 }
 .videos::after{
 	content: "";
@@ -1102,17 +1066,16 @@
 #vdio_name{
 	font-size: 14px;
 	padding-bottom: 10px;
+	cursor: pointer;
 }
 #videos_list{
 	width: 1240px;
-    /*height: 415px;*/
 }
 
 /*侧边固定导航栏*/
 #barul{
 	width: 27px;
 	height: 161px;
-	/*background: #444851;*/
 	position: fixed;
 	right: 32px;
 	bottom: 125px;
@@ -1122,6 +1085,7 @@
 	height: 39px;
 	background-color: #fff;
     border: 1px solid #f5f5f5;
+    cursor: pointer;
 }
 .icon{
 	display: block;
@@ -1274,7 +1238,6 @@
 }
 #up_btn{
 	height: 80px;
-	/*background: powderblue;*/
 	position: relative;
 	text-align: center;
 	border-bottom: 1px solid #e0e0e0;
@@ -1291,8 +1254,8 @@
     font-size: 16px;
     line-height: 25px;
     text-align: center;
-	/*background: peru;*/
     color: #616161;
+    cursor: pointer;
 }
 .upbtns:nth-child(1){
 	border-left: none;
@@ -1312,7 +1275,6 @@
 }
 #up_inf{
 	height: 112px;
-	/*background: powderblue;*/
 }
 #up_inf_dl{
 	padding: 40px 0;
@@ -1320,7 +1282,6 @@
 }
 .left_links{
 	float: left;
-	/*margin-right: 20px;*/
 	width: 160px;
 	font-size: 14px;
 }
@@ -1348,7 +1309,6 @@
 	float: right;
 	margin: 40px 0;
 	text-align: center;
-	/*background: peachpuff;*/
 }
 #phonenum{
 	margin: 0 0 5px;
@@ -1371,6 +1331,7 @@
     line-height: 28px;
     margin: 0 auto;
     transition: all .4s;
+    cursor: pointer;
 }
 .linkicon{
 	font-size: 12px;
@@ -1383,7 +1344,6 @@
 }
 #inf_list{
 	height: 91px;
-	/*background: papayawhip;*/
 }
 #footer_logo{
 	width: 55px;
@@ -1394,6 +1354,7 @@
 	color: white;
 	float: left;
 	margin-right: 10px;
+	cursor: pointer;
 }
 #inf_list_p1{
 	color: #757575;

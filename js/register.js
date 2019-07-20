@@ -2,22 +2,25 @@ $(function(){
 	
 	//国家
 	$('#inp_box1').click(function(){
-		//点击 出现 /隐藏   切换
 		$('#inpbox1_down').toggle();
 	})
 
 	$('#btnnum').click(function(){
-		//点击 出现 /隐藏   切换
 		$('#inpbox2_down').toggle();
 	})
 	$('#num').blur(function(){
 		var value = $('#num').val();
 		var reg = /^1\d{10}$/;
 		var result = reg.test(value);
-		$('#danger').css('color','#fff');
-		if(result==false){
-			//p标签显示
-			$('#danger').css('color','red');
+		$('#notxt').css('display','none');
+		$('#err').css('display','none');
+		if(value==''){
+			$('#no').css('display','none');
+			$('#notxt').css('display','block');
+		}
+		else if(result==false){
+			$('#no').css('display','none');
+			$('#err').css('display','block');
 		}
 	})
 	

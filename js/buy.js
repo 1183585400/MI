@@ -21,9 +21,6 @@ $(function(){
  	
  	
  	//商品图片切换以及放大镜
- 	// 实现颜色类别切换
- 	// 选择颜色按钮  原来选中的颜色按钮  tab切换按钮类 tab按钮里面的图片  原图  大图  图片路径前部分  路径后缀
-	// colorBtn  oldcolorBtn tabBtn  tabPic  sImg bImg  firstSrc  lastSrc
 	function choosecolor(colorBtn, oldcolorBtn, tabBtn, tabPic, sImg, bImg, firstSrc, lastSrc) {
 		colorBtn.click(function() {
 			colorBtn.css('borderColor','#ff6700');
@@ -37,7 +34,6 @@ $(function(){
 			zoomToolSilder(tabBtn, sImg, bImg, firstSrc, lastSrc);
 		})
 	}
-	
 	// 实现tab切换图片
 	// tab切换按钮类 原图  大图  图片路径前部分  路径后缀
 	function tabchange(tabBtn, sImg, bImg, firstSrc, lastSrc){
@@ -55,44 +51,10 @@ $(function(){
 			})			
 		})
 	}
-
  	// 解决第一次tab切换
 	tabchange($('.picBtn'), $('#s_img'), $('#b_img'), 'img/shopPics/pms_pic', '.jpg');
-	// 选择颜色按钮  原来选中的颜色按钮  tab切换按钮类 tab按钮里面的图片  原图  大图  图片路径前部分  路径后缀
-	// colorBtn  oldcolorBtn tabBtn  tabPic  sImg bImg  firstSrc  lastSrc
 	choosecolor($('#blueone'), $('#blackone'), $('.picBtn'), $('.btnpic'),$('#s_img'), $('#b_img'), 'img/shopPics/pms_pic', '.jpg');
 	choosecolor($('#blackone'), $('#blueone'), $('.picBtn'), $('.btnpic'),$('#s_img'), $('#b_img'), 'img/shopPics/pms_picblack', '.jpg');
- 	
- 	
-// 	$('.picBtn').click(function(){
-//		//弹出索引值
-//		var ibtn = $('.picBtn').index(this);
-//	 	$('.picBtn').each(function(index, element){		
-////	 		console.log(element);
-//	 		if(ibtn == index){
-//	   			$(element).css('borderColor','#ff6700');
-//	   		
-//	 		}else{
-//	   			$(element).css('borderColor','#e0e0e0');
-//	 		}
-//	 	})
-//	 	++ibtn;
-//		$('#s_img').attr("src",'img/shopPics/pms_pic'+ibtn+'.jpg');
-//		$('#b_img').attr("src",'img/shopPics/pms_pic'+ibtn+'.jpg');
-// 	})
-//
-// 	//选择颜色的点击事件
-// 	$('.s2').click(function(i){
-// 		var inow = $('.s2').index(this);
-// 		$('.s2').eq(inow).css({'color':'#FF6700','border-color':'#FF6700'});
-//	 	
-// 		$('.s2').each(function(index) {
-// 			if(index!=inow){
-//		 		$('.s2').eq(index).css({'color':'#333','border-color':'#e0e0e0'});
-//		 	}
-// 		})
-// 	})
- 	
  	//选择版本的点击事件
  	$('.s1').click(function(i){
  		var inow = $('.s1').index(this);
@@ -109,7 +71,6 @@ $(function(){
    	$('#spic').mousemove(function(event){
 		var nowleft = Math.floor(event.pageX - $('#spic').offset().left)-130;
 		var nowtop = Math.floor(event.pageY - $('#spic').offset().top)-130;
-//		console.log(nowleft,nowtop);
 		$('#bigpic').css('display','block');
 		$('#squre').css('display','block');
 		if(nowleft<0){
@@ -137,8 +98,6 @@ $(function(){
 		$('#bigpic').css('display','none');
 		$('#squre').css('display','none');
 	})
-   	
-   	
 	//商品轮播吸顶效果
  	$(document).scroll( function() { 
  		console.log($(document).scrollTop());
@@ -153,8 +112,6 @@ $(function(){
 		}
 		
 	} )
- 	
- 
  	//右边商品信息
  	//保险按钮
 	$('#safe1').click(function(){

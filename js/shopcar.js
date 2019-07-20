@@ -9,7 +9,6 @@ $(function(){
    		$('#logo1').css({'opacity':'1'}); 
    		$('#logo2').css({'opacity':'0'}); 
    	})
-   	
    	//选择按钮的效果
    	//全选
    	$('#allbtn').click(function(){
@@ -57,7 +56,6 @@ $(function(){
    		}
    		$('#selected').html(selected);
    		$('#all_pay').html(allpay);
-// 		console.log(selected);
    	})
    		//选中一个
    	$('#btn2').click(function(){
@@ -86,8 +84,6 @@ $(function(){
    		$('#all_pay').html(allpay);
    		
    	})
-   	
-   	
    	//删除 X 商品
    	$('#del1').click(function(){
 		$('#shoplist1').css('display','none');
@@ -116,7 +112,6 @@ $(function(){
    	$('.num').each(function(index) {
    		var inow = $('.num').index(this);
    		var count = parseInt($('.nownum').eq(inow).text());
-   		console.log(inow,count);
    		$('.less').eq(inow).click(function(){
    			count=count-1;
    			if(count<=1){
@@ -145,29 +140,16 @@ $(function(){
 	   	$('#all_pay').html(allpay);
 	   	console.log(allpay);
     }
-	   	
-  
-   	
-   	
 	//吸底效果
-   	//购物车盒子高度 > 可视区域高度$(window).height() - header高度   〉〉position:fixed
-   	//srollTop >= header高度+盒子高度-可视区域高度  〉〉position:relative
-//		var forfix = $(window).height()-$('#topbar').height();
-//	   	var forrel = $('#topbar').height()+$('#shopcar').height()-$(window).height();
-//	   	console.log(forfix,forrel)
 	function fixedown(){
 		if($('#shopcar').height() > $(window).height()-$('#topbar').height()){
-			console.log('fixed啦')
 			$('#big_stat').css({'position':'fixed','bottom':'0'})
 		}
 		if($(window).scrollTop() >= $('#topbar').height()+$('#shopcar').height()-$(window).height()){
-			console.log('rel啦')
 			$('#big_stat').css({'position':'relative'})
 		}
 	}
 	fixedown();	
-		
-   	
 	//购物车推荐动态创建
    	var foryou_srr = [
 		{
@@ -237,7 +219,4 @@ $(function(){
 							</li>`;
 		$('#foryou_ul').append(foryouStr);
 	})
-   	
-   	
-   	
 })

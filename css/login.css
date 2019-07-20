@@ -68,6 +68,7 @@
     margin: 34px auto;
     margin-bottom: 14px;
     border: none;
+    outline: none;
 }
 #text{
 	margin: 0 auto;

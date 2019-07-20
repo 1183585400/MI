@@ -35,7 +35,6 @@ $(function(){
 	var iNow = 0;
 	var timer;
 	for(var i = 0;i<$('.picBtn').length;i++){
-//		console.log(i);
 		bind(i);
 	}
 	
@@ -43,7 +42,6 @@ $(function(){
     function inter(){
 		timer =setInterval(function(){
 	    	iNow++;
-//	    	console.log(iNow);
 	    	if(iNow>=$('.sPic').length){
 				iNow=0;
 			}
@@ -83,7 +81,6 @@ $(function(){
 		if(iNow<0){
 			iNow = $('.sPic').length-1;
 		}
-//		console.log('前'+iNow);
 		changePic(iNow);
 		lastBtn(iNow);
 		inter();
@@ -96,7 +93,6 @@ $(function(){
 		if(iNow>$('.sPic').length-1){
 			iNow = 0;
 		}
-//		console.log('后'+iNow);
 		changePic(iNow);
 		nextBtn(iNow);
 		inter();
@@ -141,12 +137,10 @@ $(function(){
 	
 	
 	//倒计时
-	
 	var clock = setInterval(function(){
-		console.log(1)
 		getTime();	
 	},1000)
-	var star =  new Date("2019/07/03 11:30:00");
+	var star =  new Date("2019/09/18 11:30:00");
 	function getTime(){
 		var now = new Date();
 		var time = star - now;
@@ -161,8 +155,6 @@ $(function(){
 			s = parseInt(00);
 		}else{
 		}
-//		console.log(h,m,s);	
-//		console.log(now);
 	}
 	function change(h,m,s){
 		if(h<10){
@@ -219,7 +211,6 @@ $('#flash_list').ready(function(){
 		ulNow--;
 		console.log('--:'+ulNow);
 		if(ulNow<-num){
-//			ulNow = -num+1
 		}
 		if(ulNow>-num){
 			shop_left = $('.shop_list').width()*4+56;
@@ -232,7 +223,6 @@ $('#flash_list').ready(function(){
 			$('#flash_list').css('left',shop_left);
 			$('#flash_list').css('transition','left 0.3s')
 			$('#flash_list').animate({'left':shop_left},'fast','linear', '0.1s')
-//			ulNow = -num+1;
 			console.log('==:'+ulNow);
 		}
 		console.log('nextlast:'+ulNow,shop_left);
@@ -242,9 +232,9 @@ $('#flash_list').ready(function(){
 	var yulNow = 0;
 	var ynum  = Math.floor( $('.yours').length/5 );
 	var ynum02 = Math.floor( $('.yours').length%5 );
-	console.log('ynum:'+ynum,ynum02);
+//	console.log('ynum:'+ynum,ynum02);
 	$('#you_before').click(function(){
-		console.log('beforefirst:'+yulNow);
+//		console.log('beforefirst:'+yulNow);
 		if(yulNow>=-1){
 			yulNow = 0;
 		}
@@ -279,7 +269,6 @@ $('#flash_list').ready(function(){
 			$('#you_list').css('left',yshop_left);
 			$('#you_list').css('transition','left 0.3s')
 			$('#you_list').animate({'left':yshop_left},'fast','linear', '0.1s')
-//			ulNow = -num+1;
 			console.log('==:'+yulNow);
 		}
 		console.log('nextlast:'+yulNow,yshop_left);

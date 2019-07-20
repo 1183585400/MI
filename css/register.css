@@ -43,9 +43,13 @@ body{
 	padding: 6px 0;
 	color: #666;
 }
-#danger{
-	color: #fff;
+.danger{
+	color:red;
 	margin-top: 7px;
+	display: none;
+}
+#no{
+	color: #fff;
 }
 #inp_box1{
 	height: 40px;
@@ -147,6 +151,7 @@ body{
     color: #fff;
     width: 330px;
     height: 42px;
+    outline: none;
 }
 #pbox{
 	text-align: center;

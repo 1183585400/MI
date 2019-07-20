@@ -26,15 +26,15 @@ $(function(){
 		if(idval==''){
 			$('#id').css('borderColor','#FF6700');
 			$('#danger1').css('display','block');
-			console.log('请输入用户名');
-		}else if(result==false){
-			$('#id').css('borderColor','#FF6700');
-			$('#danger2').css('display','block');
-			console.log('用户名输入错误！');
-		}else if(pwdval==''){
+		}
+//		else if(result==false){
+//			$('#id').css('borderColor','#FF6700');
+//			$('#danger2').css('display','block');
+//			console.log('用户名输入错误！');
+//		}
+		else if(pwdval==''){
 			$('#pwd').css('borderColor','#FF6700');
 			$('#danger3').css('display','block');
-			console.log('请输入密码');
 		}		
 	})
 })

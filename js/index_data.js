@@ -45,12 +45,12 @@ $(function(){
    	var site_srr = [
    			{
 				"src": "img/site_sec/666666.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "小米6"
 			},
    			{
 				"src": "img/site_sec/mix3-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "小米MIX 3"
 			},
 			{
@@ -60,37 +60,37 @@ $(function(){
 			},
 	   		{
 				"src": "img/site_sec/pingmu-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "小米8 屏幕指纹版"
 			},
 	   		{
 				"src": "img/site_sec/max3-80-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "小米MAX 3"
 			},
 	   		{
 				"src": "img/site_sec/m8se-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "小米8 SE"
 			},
 	   		{
 				"src": "img/site_sec/80808080808080.jpg",
-				"href":"",
+				"href":"buy.html",
 				"name": "小米 6X"
 			},
 	   		{
 				"src": "img/site_sec/note5-80-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "红米Note 5"
 			},
 	   		{
 				"src": "img/site_sec/note780-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "红米Note 7"
 			},
    			{
 				"src": "img/site_sec/note5-80-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "红米Note 5"
 			},
 			{
@@ -100,13 +100,79 @@ $(function(){
 			},
 			{
 				"src": "img/site_sec/note5-80-80.png",
-				"href":"",
+				"href":"buy.html",
 				"name": "红米Note 5"
 			},
 			{
 				"src": "img/site_sec/pingmu-80.png",
+				"href":"buy.html",
+				"name": "小米8 屏幕指纹版"
+			},
+			{
+				"src": "img/site_sec/max3-80-80.png",
+				"href":"buy.html",
+				"name": "小米MAX 3"
+			},
+			{
+				"src": "img/site_sec/80808080808080.jpg",
+				"href":"buy.html",
+				"name": "小米 6X"
+			},
+			{
+				"src": "img/site_sec/m8se-80.png",
+				"href":"buy.html",
+				"name": "小米8 SE"
+			}
+			
+   	]
+   	var site_srr2 = [
+			{
+				"src": "img/site_sec/80808080808080.jpg",
+				"href":"",
+				"name": "小米 6X"
+			},
+	   		{
+				"src": "img/site_sec/note780-80.png",
+				"href":"buy.html",
+				"name": "红米Note 7"
+			},
+   			{
+				"src": "img/site_sec/note5-80-80.png",
+				"href":"buy.html",
+				"name": "红米Note 5"
+			},
+			{
+				"src": "img/site_sec/note5-80-80.png",
+				"href":"",
+				"name": "红米Note 5"
+			},
+   			{
+				"src": "img/site_sec/mix3-80.png",
+				"href":"",
+				"name": "小米MIX 3"
+			},
+	   		{
+				"src": "img/site_sec/note5-80-80.png",
+				"href":"",
+				"name": "红米Note 5"
+			},
+	   		{
+				"src": "img/site_sec/pingmu-80.png",
 				"href":"",
 				"name": "小米8 屏幕指纹版"
+			}
+   	]
+   	
+   	var site_srr3 = [
+   			{
+				"src": "img/site_sec/mix3-80.png",
+				"href":"buy.html",
+				"name": "小米MIX 3"
+			},
+			{
+				"src": "img/site_sec/qingchun-80.png",
+				"href":"buy.html",
+				"name": "小米8 青春版"
 			},
 			{
 				"src": "img/site_sec/max3-80-80.png",
@@ -114,14 +180,81 @@ $(function(){
 				"name": "小米MAX 3"
 			},
 			{
+				"src": "img/site_sec/note5-80-80.png",
+				"href":"",
+				"name": "红米Note 5"
+			},
+	   		{
+				"src": "img/site_sec/80808080808080.jpg",
+				"href":"",
+				"name": "小米 6X"
+			},
+	   		{
+				"src": "img/site_sec/note5-80-80.png",
+				"href":"",
+				"name": "红米Note 5"
+			},
+	   		{
+				"src": "img/site_sec/pingmu-80.png",
+				"href":"",
+				"name": "小米8 屏幕指纹版"
+			},
+   			{
+				"src": "img/site_sec/mix3-80.png",
+				"href":"",
+				"name": "小米MIX 3"
+			}
+   	]
+   	var site_srr4 = [
+			{
 				"src": "img/site_sec/80808080808080.jpg",
 				"href":"",
 				"name": "小米 6X"
 			},
 			{
-				"src": "img/site_sec/m8se-80.png",
+				"src": "img/site_sec/qingchun-80.png",
+				"href":"buy.html",
+				"name": "小米8 青春版"
+			},
+			{
+				"src": "img/site_sec/note5-80-80.png",
+				"href":"buy.html",
+				"name": "红米Note 5"
+			},
+			{
+				"src": "img/site_sec/pingmu-80.png",
+				"href":"buy.html",
+				"name": "小米8 屏幕指纹版"
+			},
+			{
+				"src": "img/site_sec/max3-80-80.png",
+				"href":"buy.html",
+				"name": "小米MAX 3"
+			},
+			{
+				"src": "img/site_sec/note5-80-80.png",
 				"href":"",
-				"name": "小米8 SE"
+				"name": "红米Note 5"
+			},
+	   		{
+				"src": "img/site_sec/80808080808080.jpg",
+				"href":"",
+				"name": "小米 6X"
+			},
+	   		{
+				"src": "img/site_sec/note5-80-80.png",
+				"href":"",
+				"name": "红米Note 5"
+			},
+	   		{
+				"src": "img/site_sec/pingmu-80.png",
+				"href":"",
+				"name": "小米8 屏幕指纹版"
+			},
+   			{
+				"src": "img/site_sec/mix3-80.png",
+				"href":"",
+				"name": "小米MIX 3"
 			}
    	]
 	$.each(site_srr,function(index,data){
@@ -129,9 +262,30 @@ $(function(){
 					<img src="${data.src}"/>
 					<span id="site_name">${data.name}</span><a>
 				</li>`;
-		$('#sec_site').append(siteStr);
+		$('#phone_site').append(siteStr);
+	})
+	$.each(site_srr2,function(index,data){
+		var	siteStr2 = `<li class="site_content"><a href="${data.href}">
+					<img src="${data.src}"/>
+					<span id="site_name">${data.name}</span><a>
+				</li>`;
+		$('#tv_site').append(siteStr2);
 	})
 	
+	$.each(site_srr3,function(index,data){
+		var	siteStr3 = `<li class="site_content"><a href="${data.href}">
+					<img src="${data.src}"/>
+					<span id="site_name">${data.name}</span><a>
+				</li>`;
+		$('#pc_site').append(siteStr3);
+	})
+	$.each(site_srr4,function(index,data){
+		var	siteStr4 = `<li class="site_content"><a href="${data.href}">
+					<img src="${data.src}"/>
+					<span id="site_name">${data.name}</span><a>
+				</li>`;
+		$('#jia_site').append(siteStr4);
+	})
 	
 	//小米闪购
    	var flash_srr = [{
@@ -296,7 +450,7 @@ $(function(){
 							</li>`;
 		$('#phone_ul').append(phoneStr);
 		var flag = $('.new_lable').text()=='新品';
-		console.log(flag);
+//		console.log(flag);
 		if(flag==true){
 			$('.new_lable').removeClass('new_lable').addClass('sale_lable');
 		}
